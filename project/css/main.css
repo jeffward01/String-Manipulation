@@ -1,0 +1,119 @@
+/************************
+GENERAL
+************************/
+
+*:focus {
+  outline: none;
+  font-family: 'Ubuntu', sans-serif;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+input:focus {
+  outline: 0;
+}
+
+/************************
+HEADER
+************************/
+
+header {
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  color: #EEE;
+  text-shadow: 4px 4px 1px #300000;
+  4px 6px 1px #400000;
+  4px 8px 1px #500000;
+  /*......and so on, until*/
+  4px 60px 5px #FF0000;
+}
+
+/************************
+BACKGROUND
+************************/
+
+html {
+  background-image: url(../img/matrix.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Opaque Background*/
+
+section {
+  background-color: rgba(9, 255, 33, 0.2);
+  width: 400px;
+  height: 100%;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+/*Opaque Background*/
+
+#radio {
+  background-color: rgba(9, 255, 33, 0.2);
+  width: 400px;
+  height: 65px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding: 15px;
+  border-radius: 25px;
+}
+
+/************************
+BODY
+************************/
+
+h3 {
+  text-align: center;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/************************
+FORM
+************************/
+
+#form {
+  text-align: center;
+  border: none;
+  padding: 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+input[value="lowerCase"] {
+  color: white;
+}
+fieldset {
+  border: 0px;
+}
+textarea {
+  width: 350px;
+  height: 65px;
+}
+input[type="radio"] {
+  color: white;
+  border: 3px solid green;
+  border-radius: 15px;
+}
+input[type="radio"] {
+  color: white;
+}
+label {
+  color: white;
+}
+button {
+  background-color: black;
+  color: #56f510;
+  width: 100px;
+  height: 35px;
+  border-radius: 15px;
+  font-family: 'Ubuntu', sans-serif;
+}

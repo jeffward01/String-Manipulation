@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- My CSS stylesheet link  -->
+  <link href='http://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/main.css">
+  <title> Case Changer</title>
+</head>
+<!-- Header Area  -->
+<header>
+  <div>
+    <h1>Text Case Changer </h1>
+    <h5>and word count!</h5>
+    <h2>By: Jeff Ward</h2>
+  </div>
+</header>
+
+<body>
+  <section>
+    <h3>Choose your Conversion method</h3>
+  </section>
+
+  <form id="form">
+    <section id="radio">
+      <fieldset>
+        <input id="lowerCase" type="radio" name="case" value="lowerCase">
+        <label for="lowerCase">Lower Case</label>
+        <br/>
+        <input id="upperCase" type="radio" name="case" value="upperCase">
+        <label for="lowerCase">Upper Case</label>
+        <br>
+        <input id="reverseCase" type="radio" name="case" value="reverseCase">
+        <label for="reverseCase">Reverse Text</label>
+        <br/>
+        <br/>
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <label>Input Text here!</label>
+        <br>
+        <textarea id="inputText" name="input" form="inputText"></textarea>
+        <p>
+          <input type="button" value="Calculate Words" onClick="countit()">
+          <input type="text" name="wordcount3" id="wordcalc" size="20">
+        </p>
+        <p>
+          <input type="button" value="Calculate Characters" onClick="charit()">
+          <input type="text" name="charcount3" id="charcalc" size="20">
+        </p>
+      </fieldset>
+    </section>
+    <section>
+      <fieldset>
+        <label>Converted Text appears here!</label>
+        <br>
+        <textarea id="outputText" name="output" form="outputText"></textarea>
+      </fieldset>
+    </section>
+    <br>
+    <button type="button" onclick="convert()">Convert!</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+
+</html>
