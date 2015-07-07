@@ -26,3 +26,8 @@ function charit() {
   var length = withoutSpace.length;
   document.getElementById('charcalc').value = length;
 }
+
+
+//Github:
+$ cat .gitattributes
+  *.rb linguist-language=JavaScript
